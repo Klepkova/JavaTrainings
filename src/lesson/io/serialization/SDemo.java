@@ -54,11 +54,11 @@ public class SDemo {
 
         List<Record> records = new ArrayList<>();
 
-        records.add(new Record("name1", 12213));
-        records.add(new Record("name2", 77777));
-        records.add(new Record("name3", 99999));
+        records.add(new Record(1,"name1", 12213));
+        records.add(new Record(2,"name2", 77777));
+        records.add(new Record(3, "name3", 99999));
         for(int i = 0; i< records.size(); i++) {
-            records.get(i).setCache(i+1);
+            records.get(i);//.setCache(i+1);
         }
 
         for(Record record: records) {
@@ -75,7 +75,7 @@ public class SDemo {
         }
     }
 }
-
+/*
 class Record implements Externalizable {
     private String name;
     private int number;
@@ -136,3 +136,4 @@ class Record implements Externalizable {
                 '}';
     }
 }
+*/
