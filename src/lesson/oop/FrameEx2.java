@@ -47,6 +47,11 @@ public class FrameEx2 extends JFrame{
         FrameEx2 frameEx2=new FrameEx2();
         frameEx2.setVisible(true);
 
+
+        //Добавление строки
+
+
+
     }
 }
 
