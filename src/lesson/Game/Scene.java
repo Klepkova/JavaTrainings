@@ -3,9 +3,7 @@ package lesson.Game;
 import javax.swing.*;
 import java.awt.*;
 
-/**
- * Created by User on 13.12.2015.
- */
+
 public class Scene extends JPanel {
     private Field field;
     Player player;

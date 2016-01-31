@@ -1,8 +1,6 @@
 package lesson.Game;
 
-/**
- * Created by User on 13.12.2015.
- */
+
 public class Size {
     private int width;
     private int height;

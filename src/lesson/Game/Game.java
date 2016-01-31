@@ -3,9 +3,6 @@ package lesson.Game;
 import javax.swing.*;
 import java.awt.event.*;
 
-/**
- * Created by User on 13.12.2015.
- */
 public class Game extends JFrame {
     public Game() {
         setSize(640, 480);

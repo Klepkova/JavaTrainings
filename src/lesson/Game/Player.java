@@ -2,9 +2,6 @@ package lesson.Game;
 
 import java.awt.*;
 
-/**
- * Created by User on 13.12.2015.
- */
 public class Player {
   private Point position;
     private int radius;

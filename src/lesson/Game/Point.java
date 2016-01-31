@@ -1,8 +1,6 @@
 package lesson.Game;
 
-/**
- * Created by User on 13.12.2015.
- */
+
 public class Point {
     private int x;
     private  int y;
