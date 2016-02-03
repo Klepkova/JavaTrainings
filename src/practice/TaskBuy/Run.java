@@ -37,15 +37,20 @@ public class Run {
         Collections.sort(listBuy, new Comparator<Usual>() {
             @Override
             public int compare(Usual o1, Usual o2) {
-                if(o1.getDay()==o2.getDay())
-                    return 0;
-                if(o1.getDay()>o2.getDay())
-                    return 1;
-                return -1;
+
+                // TODO можно проще
+                return Integer.compare(o1.getDay(),o2.getDay());
+
+//                if(o1.getDay()==o2.getDay())
+//                    return 0;
+//                if(o1.getDay()>o2.getDay())
+//                    return 1;
+//                return -1;
             }
         });
 
         System.out.println("--------------После сортировки--------------");
+        // TODO 3 раза используется вывода списка, тогда лучше вынести в отдельную функцию
         for(Usual us : listBuy){
             System.out.println(us);
         }

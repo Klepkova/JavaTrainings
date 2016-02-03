@@ -4,6 +4,7 @@ package practice.TaskBuy;
  * Created by userracer on 31.01.2016.
  */
 public class Fare extends Usual {
+    // private
     double fare;
 
     public Fare(int count, double costOne, int day, double fare){

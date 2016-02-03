@@ -4,6 +4,7 @@ package practice.TaskBuy;
  * Created by userracer on 31.01.2016.
  */
 public class Bonus extends Usual {
+    // TODO private
     double bonus;
 
     public Bonus(int count, double costOne, int day, double bonus){

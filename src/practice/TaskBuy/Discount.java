@@ -4,6 +4,7 @@ package practice.TaskBuy;
  * Created by userracer on 31.01.2016.
  */
 public class Discount extends Usual {
+    // TODO private
     int disc;
 
     public Discount (int count, double costOne, int day, int disc){
